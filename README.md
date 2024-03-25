@@ -21,6 +21,7 @@ Key/ Cle:
 - Lois discretes / Discrete distributions ✅
 - Lois continues (Normale, Student, Khi-deux) / Continuous distributions (Normal, Student's t, Chi-square) ✅
 - Lois multivariables / Multivariable distributions ⚠️
+- Familles exponentielles et leurs interprétations / exponential families and their interpretations ⚠️
 
 
 

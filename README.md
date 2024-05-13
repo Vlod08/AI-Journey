@@ -14,6 +14,7 @@ Key/ Cle:
 - Diagonalisation / Diagonalization ✅ 
 - Singular Value Decomposition / Décomposition en valeurs singulières ⚠️ 
 - Kronecker Product and matrix derivatives / Produit de Kronecker et dérivées matricielles ✅
+- Multi-variante Distribution / Distribution Multi-variante ⚠️
 
 
 
@@ -36,8 +37,12 @@ Key/ Cle:
         - Sigmoid function and binary classification / Fonction Sigmoïde et Classification Binaire
         - Probabilistic Interpretation / Interprétation probabiliste
         - Likelihood of parameters / Vraisemblance des Paramètres
-    * **Lecture 4 : Perceptron & Generalized Linear Model** ⚠️
+    * **Lecture 4 : Perceptron & Generalized Linear Model** ✅
         - exponential family / Famille Exponentielle
+        - Softmax Equation and Multi-class Classification
+    * **Lecture 5 : GDA & Naive Bayes** ⚠️
+        - Bayes Theorem / Théorème de Bayes
+
 
 * #### [stanford course notes / Notes de cours de Stanford](https://cs229.stanford.edu/syllabus-autumn2018.html) 🛑
 

@@ -22,7 +22,7 @@ Key/ Cle:
 - Lois discretes / Discrete distributions ✅
 - Lois continues (Normale, Student, Khi-deux) / Continuous distributions (Normal, Student's t, Chi-square) ✅
 - Lois multivariables / Multivariable distributions ⚠️
-- Familles exponentielles et leurs interprétations / exponential families and their interpretations ⚠️
+- Familles exponentielles et leurs interprétations / exponential families and their interpretations (https://youtu.be/X-ix97pw0xY?si=B6AeJ-zGl5LShptc)✅
 
 
 
@@ -50,7 +50,7 @@ Key/ Cle:
 
 ### Coursera Courses / Cours Coursera :
 * ####  Machine Learning Specialization / Spécialisation en Apprentissage Automatique : 
-    * **[Supervised Machine Learning: Regression and Classification (Beginners Level) / Apprentissage automatique supervisé : Régression et Classification (Niveau débutant)](https://www.coursera.org/specializations/machine-learning-introduction) : 03-mars-2024 - active**  🛑 
+    * **[Supervised Machine Learning: Regression and Classification (Beginners Level) / Apprentissage automatique supervisé : Régression et Classification (Niveau débutant)](https://www.coursera.org/specializations/machine-learning-introduction) : 03-mars-2024 - 26-juillet-2024** ✅  
         - Feature Scaling and Normalisation / "Mise à l'échelle et Normalisation
     
 

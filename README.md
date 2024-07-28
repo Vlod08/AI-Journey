@@ -39,7 +39,8 @@ Key/ Cle:
         - Likelihood of parameters / Vraisemblance des Paramètres
     * **Lecture 4 : Perceptron & Generalized Linear Model** ✅
         - exponential family / Famille Exponentielle
-        - Softmax Equation and Multi-class Classification
+        - Softmax Equation and Multi-class Classification / Softmax Equation and Multi-class Classification
+        - Cross entropy / Entropie croisée 
     * **Lecture 5 : GDA & Naive Bayes** ⚠️
         - Bayes Theorem / Théorème de Bayes
 
@@ -51,7 +52,8 @@ Key/ Cle:
 ### Coursera Courses / Cours Coursera :
 * ####  Machine Learning Specialization / Spécialisation en Apprentissage Automatique : 
     * **[Supervised Machine Learning: Regression and Classification (Beginners Level) / Apprentissage automatique supervisé : Régression et Classification (Niveau débutant)](https://www.coursera.org/specializations/machine-learning-introduction) : 03-mars-2024 - 26-juillet-2024** ✅  
-        - Feature Scaling and Normalisation / "Mise à l'échelle et Normalisation
+        - Feature Scaling and Normalisation / Mise à l'échelle et Normalisation
+        - Regularization / Regularization 
     
 
 * ### Other Resources  

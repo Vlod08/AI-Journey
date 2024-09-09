@@ -69,7 +69,7 @@ Key/ Cle:
 ## Practical aspect and exercises / Aspect pratique et exercices :
 
 ### Coursera Courses / Cours Coursera :
-* ####  Machine Learning Specialization / Spécialisation en Apprentissage Automatique : 
+* ####  Machine Learning Specialization / Spécialisation en Apprentissage Automatique ✅ : 
     * **[Supervised Machine Learning: Regression and Classification (Beginners Level) / Apprentissage automatique supervisé : Régression et Classification (Niveau débutant)](https://www.coursera.org/specializations/machine-learning-introduction) : 03-05-2024 - 05-07-2024** ✅  
         - Self implementation of cost & gradient descent functions for Linear regrssion & logistic classification / Implémentation des fonctions de coût et de descente
             de gradient pour la régression linéaire et la classification logistique 
@@ -94,13 +94,13 @@ Key/ Cle:
         - Entropy and Information Gain / Entropie et Gain d'Information
         - F1-Score
     
-
-    * **[Unsupervised Learning, Recommenders, Reinforcement Learning (Intermediate Level) / Apprentissage Non Supervisé, Systèmes de Recommandation, Apprentissage par Renforcement (Niveau Intermédiaire)](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning) : 09-08-2024 active**🛑
+    * **[Unsupervised Learning, Recommenders, Reinforcement Learning (Intermediate Level) / Apprentissage Non Supervisé, Systèmes de Recommandation, Apprentissage par Renforcement (Niveau Intermédiaire)](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning) : 09-08-2024 08-09-2024**✅
         - Introduction to unsupervised learning / Introduction à l'Apprentissage Non Supervisé
         - Clustering & K-means algorithm 
         - Anomaly detection and Gaussian distribution / Détection d'Anomalies et Distribution Gaussienne
         - Recommendation systems / Systèmes de Recommandation
-        - Collaborative and Content based filtering / Filtrage Collaboratif et Basé sur le Contenu    
+        - Collaborative and Content based filtering / Filtrage Collaboratif et Basé sur le Contenu
+        - Reninforcement Learning & Reward function / Apprentissage par renforcement et fonction de récompense
 
 * ####  IBM AI Engineering Professional Certificate / Certificat Professionnel en Ingénierie de l'IA d'IBM : 
     * **[Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) : 22-08-2024 active**🛑

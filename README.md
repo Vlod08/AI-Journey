@@ -25,7 +25,7 @@ Key/ Cle:
 
 
 ### Machine Learning :
-* #### [stanford course videos / Vidéos de cours de Stanford](https://www.youtube.com/watch?v=het9HFqo1TQ&t=2143s) (Lectures completed 8/20) 🛑
+* #### [CS229 Stanford course videos / Vidéos de cours de Stanford](https://www.youtube.com/watch?v=het9HFqo1TQ&t=2143s) (Lectures completed 8/20) 🛑
     * **Lecture 1 : Introduction and Examples** ✅
     * **Lecture 2 : Linear Regression and Gradient Descent** ✅
         - Cost Function (Least average squares) / Fonction de Coût (Méthode des moindres carrés)
@@ -68,8 +68,19 @@ Key/ Cle:
 
 ## Practical aspect and exercises / Aspect pratique et exercices :
 
+### CS299-Stanford-Problem-Sets 🛑: 
+
+* #### [PS0-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS0): ✅
+        - Linear Algebra & Matrix Calculus
+
+* #### [PS1-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS1): 🛑
+* #### [PS2-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS2): 🛑
+* #### [PS3-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS3): 🛑
+* #### [PS4-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS4): 🛑
+
+
 ### Coursera Courses / Cours Coursera :
-* ####  Machine Learning Specialization / Spécialisation en Apprentissage Automatique ✅ : 
+* ####  Machine Learning Specialization / Spécialisation en Apprentissage Automatique ✅ [View Certificate](./Certificates/Coursera%20E4LSNKK33ML8.pdf) : 
     * **[Supervised Machine Learning: Regression and Classification (Beginners Level) / Apprentissage automatique supervisé : Régression et Classification (Niveau débutant)](https://www.coursera.org/specializations/machine-learning-introduction) : 03-05-2024 - 05-07-2024** ✅  
         - Self implementation of cost & gradient descent functions for Linear regrssion & logistic classification / Implémentation des fonctions de coût et de descente
             de gradient pour la régression linéaire et la classification logistique 
@@ -105,7 +116,6 @@ Key/ Cle:
 * ####  IBM AI Engineering Professional Certificate / Certificat Professionnel en Ingénierie de l'IA d'IBM : 
     * **[Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) : 22-08-2024 active**🛑
         - Basic ML Algorithms (Linear & logistic regression, K-Nearest Neighbors, Regression Trees)
-
 
 
 

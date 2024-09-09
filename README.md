@@ -70,8 +70,8 @@ Key/ Cle:
 
 ### CS299-Stanford-Problem-Sets 🛑: 
 
-* #### [PS0-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS0): ✅
-        - Linear Algebra & Matrix Calculus
+* #### [PS0-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS0-2018): ✅
+    - Linear Algebra & Matrix Calculus
 
 * #### [PS1-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS1): 🛑
 * #### [PS2-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS2): 🛑
@@ -116,7 +116,6 @@ Key/ Cle:
 * ####  IBM AI Engineering Professional Certificate / Certificat Professionnel en Ingénierie de l'IA d'IBM : 
     * **[Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) : 22-08-2024 active**🛑
         - Basic ML Algorithms (Linear & logistic regression, K-Nearest Neighbors, Regression Trees)
-
 
 
 * ### Other Resources  

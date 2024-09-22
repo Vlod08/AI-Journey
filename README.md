@@ -14,7 +14,7 @@ Key/ Cle:
 - Diagonalisation / Diagonalization ✅ 
 - Singular Value Decomposition / Décomposition en valeurs singulières ✅  
 - Kronecker Product and matrix derivatives / Produit de Kronecker et dérivées matricielles ✅
-
+- [Lagrange Duality / Dualite Lgrangian](https://www.youtube.com/watch?v=thuYiebq1cE&t=1793s) ✅
 
 
 ### Probability and Satistics / Probabilité et Statistiques : 
@@ -52,7 +52,7 @@ Key/ Cle:
         - PROs and CONs of Generative & Discriminative Learning Algorithms / Avantages et Inconvénients des Algorithmes d'Apprentissage Génératif et Discriminant
         - Introduction to Support Vector Machines (SVMs) / Introduction aux Machines à Vecteurs de Support (SVMs)
         - Functional and Geometric margin / Marge Fonctionnelle et Géométrique
-    * **Lecture 7 : Kernels** ⚠️
+    * **Lecture 7 : Kernels** ✅
         - Feature & Dimension augmentation / Augmentation de Caractéristiques et de Dimensions
         - Kernel trick and computation reduction / Noyaux et Optimisation
         - Lagrange Duality / Dualité de Lagrange
@@ -61,7 +61,31 @@ Key/ Cle:
         - Regularisation / Régularisation
         - Train/Devloppment/Test Split / Séparation Entraînement/Développement/Test
         - K-fold Cross Validation / Validation Croisée en K-Volets
-    
+    * **Lecture 9 : Approx/Estimation Error & ERM** ⚠️
+        - Formal definition of Bias and Variance
+        - Regularisation and Variance
+        - Consistency and Efficiency of a model
+        - Approximation/Empirical/Estimation/Irreductible/Generalisation Error
+        - Empirical Risk Minimisation 
+        - Uniform Convergence (Hoeffding's Inequality)
+        - VC Dimension
+    * **Lecture 10 : Decision Trees and Ensemble Methods** ✅
+        - Miss-classification and Cross-entropy loss
+        - Information gain 
+        - Regression trees 
+        - Pros (Fast, simple, Low Bias) and Cons (Bad additivity, High Variance)
+        - Regularisation techniques for Decision trees   
+        - Runtime complexity
+        - Ensembling Techniques(Bagging/Bootstrap sampling, Boosting, Random Forests, Stacking) 
+    * **Lecture 11 : Introduction to Neural Networks** ✅
+        - Intro : Logistic Regression to Neural Networks
+        - Activation functions 
+        - Architecture and parameters
+        - Loss and cost function
+        - Forward and Backward propogation equations
+
+
+
      
 
 * #### [stanford course notes / Notes de cours de Stanford](https://cs229.stanford.edu/syllabus-autumn2018.html) 🛑
@@ -119,7 +143,9 @@ Key/ Cle:
 
 
 * ### Other Resources  
-    * #### [ScikitLearn Tutorial (FreeCodeCamp)](https://www.youtube.com/watch?v=0B5eIE_1vpU&t=884s) 🛑
+    * #### [ScikitLearn Tutorial (FreeCodeCamp)](https://www.youtube.com/watch?v=0B5eIE_1vpU&t=884s) ✅
         - Preprocessing / Prétraitement 
         - ML Pipelines / Pipelines ML
         - Cross Validation / Validation croisée
+
+    

@@ -31,6 +31,7 @@ def main(train_path, eval_path, pred_path):
         pred_path.write( f" {prediction[i] } : { y_eval[i] } \n" )
 
     util.plot(x_eval, y_eval, GDA1.teta_final , 'E:/AI/Problem-Sets Maths and Code/CS229-Machine-Learning-Stanford/PS1-2018/output/p01e_' + path.basename(eval_path) + '.png')
+
     # *** END CODE HERE ***
 
 

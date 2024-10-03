@@ -117,15 +117,16 @@ Key/ Cle:
 
 ### CS299-Stanford-Problem-Sets 🛑: 
 
-* #### [PS0-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS0-2018): ✅
+* #### [PS0-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS0-2018) [ [question / sujet](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS0-2018/ps0.pdf) ; [solution](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS0-2018/ps0_Solution.pdf) ]: ✅
     - Linear Algebra & Matrix Calculus
 
-* #### [PS1-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS1-2018): ✅
+* #### [PS1-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS1-2018) [ [question/sujet](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS1-2018/ps1.pdf) ; [solution](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS1-2018/ps01_Solution.pdf) ]: ✅
     - Linear Classifiers (logistic regression and GDA)
     - Incomplete, Positive-Only Labels
     - Poisson Regression
     - Convexity of Generalized Linear Models
     - Locally Weighted Linear Regression
+    
 * #### [PS2-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS2): 🛑
 * #### [PS3-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS3): 🛑
 * #### [PS4-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS4): 🛑

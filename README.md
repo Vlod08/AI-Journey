@@ -25,7 +25,7 @@ Key/ Cle:
 
 
 ### Machine Learning :
-* #### [CS229 Stanford course videos / Vidéos de cours de Stanford](https://www.youtube.com/watch?v=het9HFqo1TQ&t=2143s) (Lectures completed 8/20) 🛑
+* #### [CS229 Stanford course videos / Vidéos de cours de Stanford](https://www.youtube.com/watch?v=het9HFqo1TQ&t=2143s) (Lectures completed 13/20) 🛑
     * **Lecture 1 : Introduction and Examples** ✅
     * **Lecture 2 : Linear Regression and Gradient Descent** ✅
         - Cost Function (Least average squares) / Fonction de Coût (Méthode des moindres carrés)
@@ -61,28 +61,51 @@ Key/ Cle:
         - Regularisation / Régularisation
         - Train/Devloppment/Test Split / Séparation Entraînement/Développement/Test
         - K-fold Cross Validation / Validation Croisée en K-Volets
-    * **Lecture 9 : Approx/Estimation Error & ERM** ⚠️
-        - Formal definition of Bias and Variance
-        - Regularisation and Variance
-        - Consistency and Efficiency of a model
-        - Approximation/Empirical/Estimation/Irreductible/Generalisation Error
-        - Empirical Risk Minimisation 
-        - Uniform Convergence (Hoeffding's Inequality)
-        - VC Dimension
-    * **Lecture 10 : Decision Trees and Ensemble Methods** ✅
-        - Miss-classification and Cross-entropy loss
-        - Information gain 
-        - Regression trees 
-        - Pros (Fast, simple, Low Bias) and Cons (Bad additivity, High Variance)
-        - Regularisation techniques for Decision trees   
-        - Runtime complexity
-        - Ensembling Techniques(Bagging/Bootstrap sampling, Boosting, Random Forests, Stacking) 
-    * **Lecture 11 : Introduction to Neural Networks** ✅
-        - Intro : Logistic Regression to Neural Networks
-        - Activation functions 
-        - Architecture and parameters
-        - Loss and cost function
-        - Forward and Backward propogation equations
+    * **Lecture 9 : Approx/Estimation Error & ERM / Erreur d'Approximation/Estimation & Minimisation du Risque Empirique** ⚠️
+        - Formal definition of Bias and Variance / Définition formelle du Biais et de la Variance
+        - Regularisation and Variance / Régularisation et Variance
+        - Consistency and Efficiency of a model / Cohérence et Efficacité d'un modèle
+        - Approximation/Empirical/Estimation/Irreductible/Generalisation Error / Erreur d'Approximation/Empirique/Estimation/Irréductible/Généralisation
+        - Empirical Risk Minimisation / Minimisation du Risque Empirique
+        - Uniform Convergence (Hoeffding's Inequality) / Convergence Uniforme (Inégalité de Hoeffding)
+        - VC Dimension / Dimension VC
+    * **Lecture 10 : Decision Trees and Ensemble Methods / Arbres de Décision et Méthodes d'Ensemble** ✅
+        - Miss-classification and Cross-entropy loss / Erreur de Classification et Perte d'Entropie Croisée
+        - Information gain / Gain d'Information
+        - Regression trees / Arbres de Régression
+        - Pros (Fast, simple, Low Bias) and Cons (Bad additivity, High Variance) / Avantages (Rapide, Simple, Faible Biais) et Inconvénients (Mauvaise Additivité, Haute Variance)
+        - Regularisation techniques for Decision trees / Techniques de Régularisation pour les Arbres de Décision
+        - Runtime complexity / Complexité 
+        - Ensembling Techniques(Bagging/Bootstrap sampling, Boosting, Random Forests, Stacking) / Techniques d'Ensemble (Bagging/Échantillonnage Bootstrap, Boosting, Forêts Aléatoires, Stacking)
+    * **Lecture 11 : Introduction to Neural Networks / Introduction aux Réseaux de Neurones** ✅
+        - Intro : Logistic Regression to Neural Networks / Introduction : De la Régression Logistique aux Réseaux Neuronaux
+        - Activation functions / Fonctions d'Activation
+        - Architecture and parameters / Architecture et Paramètres
+        - Loss and cost function / Fonction de Perte et Coût
+        - Forward and Backward propogation equations / Équations de la Propagation Avant et Arrière 
+    * **Lecture 12 : Backprop & Improving Neural Networks Rétropropagation & Amélioration des Réseaux Neurones** ✅
+        - Concrete example of back propogation / Exemple Concret de la Rétropropagation
+        - Improving Neural networks / Améliorer les Réseaux Neurones :
+            * advantages and disadvantages of different (ReLU, sigmoid, Tanh) / Avantages et Inconvénients des différentes Fonctions d'Activation (ReLU, Sigmoïde, Tanh)
+            * Vanishing and Exploding  gradients / Gradients Disparus et Explosifs
+            * Symmetry Problem / Problème de Symétrie
+            * Initialization Schemes / methodes d'Initialisation 
+                1. Xavier Initialization 
+                2. He Initialization
+                3. np.random.rand(shape)*np.sqrt(1/n[L-1])
+            * Normalization techniques / Techniques de Normalisation
+            * Optimization / Optimisation
+                1. Mini-Bathch Gradient Descent
+                2. Momentum Algorithm    
+    * **Lecture 13 : Debugging ML Models and Error Analysis / Débogage des Modèles ML et Analyse des Erreurs** ✅
+        - Diagnostics for debugging learning algorithms / Diagnostics pour Déboguer les Algorithmes d'Apprentissage  
+            * Convergence of the optimization algoritm / Convergence de l'Algorithme d'Optimisation
+            * Rightness of the objective function / Validité de la Fonction Objectif
+        - Error analysis and ablative analysis / Analyse des Erreurs et Analyse Ablative
+        - Premature statistical optimization  
+  
+
+
 
 
 
@@ -97,7 +120,12 @@ Key/ Cle:
 * #### [PS0-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS0-2018): ✅
     - Linear Algebra & Matrix Calculus
 
-* #### [PS1-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS1): 🛑
+* #### [PS1-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS1-2018): ✅
+    - Linear Classifiers (logistic regression and GDA)
+    - Incomplete, Positive-Only Labels
+    - Poisson Regression
+    - Convexity of Generalized Linear Models
+    - Locally Weighted Linear Regression
 * #### [PS2-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS2): 🛑
 * #### [PS3-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS3): 🛑
 * #### [PS4-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS4): 🛑

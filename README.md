@@ -167,7 +167,7 @@ Key/ Cle:
         - Reninforcement Learning & Reward function / Apprentissage par renforcement et fonction de récompense
 
 * ####  IBM AI Engineering Professional Certificate / Certificat Professionnel en Ingénierie de l'IA d'IBM : 
-    * **[Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) : 22-08-2024 active**🛑
+    * **[Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) : 22-08-2024 20-09-2024**✅
         - Basic ML Algorithms (Linear & logistic regression, K-Nearest Neighbors, Regression Trees)
 
 

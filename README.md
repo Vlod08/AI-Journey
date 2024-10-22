@@ -127,7 +127,13 @@ Key/ Cle:
     - Convexity of Generalized Linear Models
     - Locally Weighted Linear Regression
     
-* #### [PS2-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS2): 🛑
+* #### [PS2-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS2-2018/) [ [question/sujet](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS2-2018/ps2.pdf) ; [solution](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS2-2018/ps2_Solution.pdf) ]: ✅
+    - Logistic Regression and Training stability
+    - Model Calibration
+    - Bayesian Interpretation of Regularization
+    - Constructing kernels
+    - Kernelizing the Perceptron
+    - Spam Classifier 
 * #### [PS3-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS3): 🛑
 * #### [PS4-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS4): 🛑
 

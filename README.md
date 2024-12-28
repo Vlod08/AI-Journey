@@ -62,7 +62,7 @@ Key/ Cle:
         - Regularisation / Régularisation
         - Train/Devloppment/Test Split / Séparation Entraînement/Développement/Test
         - K-fold Cross Validation / Validation Croisée en K-Volets
-    * **Lecture 9 : Approx/Estimation Error & ERM / Erreur d'Approximation/Estimation & Minimisation du Risque Empirique** ⚠️
+    * **Lecture 9 : Approx/Estimation Error & ERM / Erreur d'Approximation/Estimation & Minimisation du Risque Empirique** ✅
         - Formal definition of Bias and Variance / Définition formelle du Biais et de la Variance
         - Regularisation and Variance / Régularisation et Variance
         - Consistency and Efficiency of a model / Cohérence et Efficacité d'un modèle

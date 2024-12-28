@@ -104,26 +104,28 @@ Key/ Cle:
             * Rightness of the objective function / Validité de la Fonction Objectif
         - Error analysis and ablative analysis / Analyse des Erreurs et Analyse Ablative
         - Premature statistical optimization
-    * **Lecture 14 : Expectation-Maximization Algorithms**
-        - Unsupervised Learning / 
-        - K means clustering / 
-        - Density Estimation / 
-        - Anamoly Detection / 
-        - Mixture of Gaussians / 
-        - Jensen's Inequality /
-    * **Lecture 15 : Principal Component Analysis**
-        - Pre-processing for PCA / 
-        - Dimensionality Reduction / 
-        - Effect on Variance / 
-        - Intro to ICA /
-    * **Lecture 16 : Independent Compoent Analysis & RL**   
-  
+    * **Lecture 14 : Expectation-Maximization Algorithms** ✅
+        - Unsupervised Learning / Apprentissage non supervisé
+        - K means clustering 
+        - Density Estimation / Estimation de la densité
+        - Anamoly Detection / Détection des anomalies
+        - Mixture of Gaussians / Mélange de Gaussiennes
+        - Jensen's Inequality / Inégalité de Jensen
+    * **Lecture 15 : Principal Component Analysis** ✅
+        - Pre-processing for PCA / Prétraitement pour PCA
+        - Dimensionality Reduction / Réduction de la dimension
+        - Effect on Variance / Effet sur la variance
+        - Intro to ICA / Introduction à l'ICA
+    * **Lecture 16 : Independent Compoent Analysis & RL** ✅   
+        - ICA's principle and non gaussain distributions / Principe de l'ICA et distributions non gaussiennes
+        - ICA in facial Recognition / ICA dans la reconnaissance faciale
+        - Reinforcement Learning / Apprentissage par renforcement
+        - Markov Decision Process and Reward Policy / Processus décisionnel de Markov et politique de récompense
 
 
 
 
 
-     
 
 * #### [stanford course notes / Notes de cours de Stanford](https://cs229.stanford.edu/syllabus-autumn2018.html) 🛑
 
@@ -152,6 +154,7 @@ Key/ Cle:
     - Simple Neural Network for classification 
     - KL Divergence
     - Fisher Information
+    - Semi-supervised learning
     - Mixture of Gaussians
     - K-means and compression
 * #### [PS4-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS4): 🛑

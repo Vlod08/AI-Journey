@@ -26,19 +26,19 @@ def main(is_semi_supervised, trial_num):
         x = x[~labeled_idxs, :]        # Unlabeled examples
 
     # *** START CODE HERE ***
-    else:
+    
     # (1) Initialize mu and sigma by splitting the m data points uniformly at random
     # into K groups, then calculating the sample mean and covariance for each group
-        m = x.shape[0]
-        mu=np.zeros((K,x.shape[1]))
-        sigma=np.zeros((K,x.shape[1],x.shape[1]))
-        Kx = np.array([]).reshape((0,2))
-        x = np.random.permutation(x)
-        bsize = int(np.ceil(m/K))
-        for i in range(K):
-            batch = x[i*bsize:(i+1)*bsize]
-            mu[i] = np.mean(batch,axis=0)
-            sigma[i]= np.dot((batch-mu[i]).T,(batch-mu[i]))/(bsize-1)
+    m = x.shape[0]
+    mu=np.zeros((K,x.shape[1]))
+    sigma=np.zeros((K,x.shape[1],x.shape[1]))
+    Kx = np.array([]).reshape((0,2))
+    x = np.random.permutation(x)
+    bsize = int(np.ceil(m/K))
+    for i in range(K):
+        batch = x[i*bsize:(i+1)*bsize]
+        mu[i] = np.mean(batch,axis=0)
+        sigma[i]= np.dot((batch-mu[i]).T,(batch-mu[i]))/(bsize-1)
     #        print(f'cov : {np.cov(batch,rowvar=False)}')
     #    print(f'mean : {mu}')
     #    print(f'var : {var}')
@@ -96,12 +96,16 @@ def run_em(x, w, phi, mu, sigma):
         # *** START CODE HERE
         # (1) E-step: Update your estimates in w
         for i in range(K):
-            w[:,i] = np.exp(-0.5*(np.dot(np.dot((x - mu[i]),np.linalg.inv(sigma[i])),(x-mu[i]).T))).sum(axis=1) * np.sqrt(np.linalg.det(sigma[i]) * (2*np.pi)**x.shape[1])
-        w /= w.sum(axis=1)[:, None]
+            diff = x - mu[i]
+            exponent = -0.5 * np.sum(diff @ np.linalg.inv(sigma[i]) * diff, axis=1)
+            normalization = np.sqrt((2 * np.pi) ** x.shape[1] * np.linalg.det(sigma[i]))
+            w[:, i] = phi[i] * np.exp(exponent) / normalization
+        w /= w.sum(axis=1, keepdims=True)
+
         # (2) M-step: Update the model parameters phi, mu, and sigma
         m = x.shape[0]
         phi = w.sum(axis=0) / m
-        mu=np.zeros(K)
+        mu=np.zeros((K,x.shape[1]))
         for i in range(K):
             mu[i] = np.sum(x * w[:, i][:, None], axis=0) / np.sum(w[:, i])
             diff = x - mu[i]
@@ -159,14 +163,37 @@ def run_semi_supervised_em(x, x_tilde, z, w, phi, mu, sigma):
     # See below for explanation of the convergence criterion
     it = 0
     ll = prev_ll = None
+    
     while it < max_iter and (prev_ll is None or np.abs(ll - prev_ll) >= eps):
         pass  # Just a placeholder for the starter code
         # *** START CODE HERE ***
         # (1) E-step: Update your estimates in w
+        for i in range(K):
+            diff = x - mu[i]
+            exponent = -0.5 * np.sum(diff @ np.linalg.inv(sigma[i]) * diff, axis=1)
+            normalization = np.sqrt((2 * np.pi) ** x.shape[1] * np.linalg.det(sigma[i]))
+            w[:, i] = phi[i] * np.exp(exponent) / normalization
+        w /= w.sum(axis=1, keepdims=True)
         # (2) M-step: Update the model parameters phi, mu, and sigma
+        for i in range(K):
+            phi[i] = (sum(w[:, i]) + alpha * sum(z==i)) / (x.shape[0] + alpha * x_tilde.shape[0])
+            x_tilde_i = x_tilde[z.reshape((-1,))==i][:]
+            mu[i] = (x.T.dot(w[:, i]) + alpha * x_tilde_i.sum(axis=0)) / (sum(w[:, i]) + alpha * sum(z==i))
+            sigma[i] = ((w[:, i][:, None] * (x-mu[i])).T.dot(x-mu[i]) + alpha * (x_tilde_i-mu[i]).T.dot(x_tilde_i-mu[i])) / (sum(w[:, i]) + alpha * sum(z==i))        
         # (3) Compute the log-likelihood of the data to check for convergence.
         # Hint: Make sure to include alpha in your calculation of ll.
         # Hint: For debugging, recall part (a). We showed that ll should be monotonically increasing.
+        prev_ll = ll
+        p_xz = np.zeros(w.shape)
+        for i in range(K):
+            diff = x - mu[i]
+            exponent = -0.5 * np.sum(diff.dot(np.linalg.inv(sigma[i])) * diff, axis=1)
+            normalization = np.sqrt((2 * np.pi) ** x.shape[1] * np.linalg.det(sigma[i]))
+            p_xz[:, i] = phi[i] * np.exp(exponent) / normalization
+        ll = np.sum(np.log(np.sum(p_xz, axis=1)))
+
+        it += 1
+
         # *** END CODE HERE ***
 
     return w
@@ -241,5 +268,5 @@ if __name__ == '__main__':
         # Once you've implemented the semi-supervised version,
         # uncomment the following line.
         # You do not need to add any other lines in this code block.
-        # main(with_supervision=True, trial_num=t)
+        main(is_semi_supervised=True, trial_num=t)
         # *** END CODE HERE ***

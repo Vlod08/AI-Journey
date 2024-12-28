@@ -21,6 +21,7 @@ Key/ Cle:
 - Lois discretes / Discrete distributions ✅
 - Lois continues (Normale, Student, Khi-deux) / Continuous distributions (Normal, Student's t, Chi-square) ✅
 - Lois multivariables / Multivariable distributions ✅
+- Jensen's Inequality / Inegalités de Jensen ✅
 
 
 
@@ -102,7 +103,20 @@ Key/ Cle:
             * Convergence of the optimization algoritm / Convergence de l'Algorithme d'Optimisation
             * Rightness of the objective function / Validité de la Fonction Objectif
         - Error analysis and ablative analysis / Analyse des Erreurs et Analyse Ablative
-        - Premature statistical optimization  
+        - Premature statistical optimization
+    * **Lecture 14 : Expectation-Maximization Algorithms**
+        - Unsupervised Learning / 
+        - K means clustering / 
+        - Density Estimation / 
+        - Anamoly Detection / 
+        - Mixture of Gaussians / 
+        - Jensen's Inequality /
+    * **Lecture 15 : Principal Component Analysis**
+        - Pre-processing for PCA / 
+        - Dimensionality Reduction / 
+        - Effect on Variance / 
+        - Intro to ICA /
+    * **Lecture 16 : Independent Compoent Analysis & RL**   
   
 
 
@@ -134,7 +148,12 @@ Key/ Cle:
     - Constructing kernels
     - Kernelizing the Perceptron
     - Spam Classifier 
-* #### [PS3-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS3): 🛑
+* #### [PS3-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS3-2018/)[([question/sujet](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS3-2018/ps3.pdf)) ; [solution](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS3-2018/ps3_Solution.pdf) ]: ✅
+    - Simple Neural Network for classification 
+    - KL Divergence
+    - Fisher Information
+    - Mixture of Gaussians
+    - K-means and compression
 * #### [PS4-2018](./Problem-Sets%20Maths%20and%20Code/CS229-Machine-Learning-Stanford/PS4): 🛑
 
 
